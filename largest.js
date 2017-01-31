@@ -1,4 +1,4 @@
-var numbers = [];
+var numbers = [50, 22, 34, 2, -6, 7, 9, 20, 25];
 
 function findLargestNumber(numberArray) {
     var largest = null;
@@ -15,4 +15,4 @@ function findLargestNumber(numberArray) {
     return largest;
 }
 
-document.write(findLargestNumber(numbers));
+document.write('Largest: ' + findLargestNumber(numbers));
